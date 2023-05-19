@@ -2,18 +2,7 @@ importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js');
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBsZDgVyI7dp-VC4ZpMKw4-aeDUtROQHeA",
-
-  authDomain: "gilmon-test-2.firebaseapp.com",
-
-  projectId: "gilmon-test-2",
-
-  storageBucket: "gilmon-test-2.appspot.com",
-
   messagingSenderId: "3989747691",
-
-  appId: "1:3989747691:web:d5eccb109aa387cb5f0bae"
-
 });
 
 const messaging = firebase.messaging();

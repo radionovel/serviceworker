@@ -1,16 +1,5 @@
 firebase.initializeApp({
-    apiKey: "AIzaSyBsZDgVyI7dp-VC4ZpMKw4-aeDUtROQHeA",
-
-    authDomain: "gilmon-test-2.firebaseapp.com",
-
-    projectId: "gilmon-test-2",
-
-    storageBucket: "gilmon-test-2.appspot.com",
-
     messagingSenderId: "3989747691",
-
-    appId: "1:3989747691:web:d5eccb109aa387cb5f0bae"
-
 });
 
 
@@ -190,8 +179,26 @@ function getToken() {
             showError('Unable to get permission to notify', error);
         });
 }
+/*
 
+var key = 'AAAAAO3Ot-s:APA91bFC2y6fQ_mqc3zjzrmi0XPBe6IMPJ4LtQtF5o_AhUUTWSJH_TEUe3IN8Mtxs_pdJfvbHEP-QCP5T1FmrtJKztiXZ7vv8c2Dx_yvA6uiwPqhbqSLzPi651k5KfIL5j3fVaY_g6BP';
+var currentToken = 'dJ8uqgsm680:APA91bGtiEP2k1GpC3z41nFqByGnDphbOU8oy3gz7bSOHi-l7hHMFsYt3s_lQmlEI965-vAzY0gmUkuEfKX4hc_qQ2krQoF2T1_ffKnp47JFh62XpEjdQlAcc0Teh7HIwgRh6SyeNtOF';
+var notification = {title: 'hi', body: 'body'}
 
+fetch('https://fcm.googleapis.com/fcm/send', {
+    method: 'POST',
+    headers: {
+        'Authorization': 'key=' + key,
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        // Firebase loses 'image' from the notification.
+        // And you must see this: https://github.com/firebase/quickstart-js/issues/71
+        data: notification,
+        to: currentToken
+    })
+});
+*/
 function sendNotification(notification) {
     var key = 'AAAAAO3Ot-s:APA91bFC2y6fQ_mqc3zjzrmi0XPBe6IMPJ4LtQtF5o_AhUUTWSJH_TEUe3IN8Mtxs_pdJfvbHEP-QCP5T1FmrtJKztiXZ7vv8c2Dx_yvA6uiwPqhbqSLzPi651k5KfIL5j3fVaY_g6BP';
 
