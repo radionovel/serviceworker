@@ -1,11 +1,16 @@
 firebase.initializeApp({
-    apiKey: "AIzaSyCnwQg80tQrY9po1Z0kzt545yX2yXc3SYQ",
-    authDomain: "gilmon-test.firebaseapp.com",
-    projectId: "gilmon-test",
-    storageBucket: "gilmon-test.appspot.com",
-    messagingSenderId: "795436727548",
-    appId: "1:795436727548:web:69949e24ccb35d29052b79",
-    measurementId: "G-MZHP0LFM61"
+    apiKey: "AIzaSyBsZDgVyI7dp-VC4ZpMKw4-aeDUtROQHeA",
+
+    authDomain: "gilmon-test-2.firebaseapp.com",
+
+    projectId: "gilmon-test-2",
+
+    storageBucket: "gilmon-test-2.appspot.com",
+
+    messagingSenderId: "3989747691",
+
+    appId: "1:3989747691:web:d5eccb109aa387cb5f0bae"
+
 });
 
 
